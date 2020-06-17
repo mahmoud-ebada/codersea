@@ -1,0 +1,1 @@
+<img src="{{isset($src) ?  url(Storage::url($src)) : 'https://via.placeholder.com/100'}}" alt="{{isset($alt) ? $alt : ''}}" class="img-fluid" height="{{isset($height) ? $height : '100'}}" width="{{isset($width) ? $width : '100'}}">
