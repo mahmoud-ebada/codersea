@@ -17,7 +17,7 @@ If you decide to use docker, please do the following steps
 1. there is a directory called laradock open it `cd laradock` 
 2. `cp -evn-example .env` to copy and create .env file.
 3. Edit .env file and set mysql, phpmyadmin and (nginx or apache as you like) config variables.
-4. if you want to use nginx run `docker-compose up -d nginx mysql phpmyadmin`, if you want tot use apache2 run `docker-compose up -d nginx mysql phpmyadmin`.
+4. if you want to use nginx run `docker-compose up -d nginx mysql phpmyadmin`, if you want tot use apache2 run `docker-compose up -d apache2 mysql phpmyadmin`.
 5. Then run the installation steps form setp 7 to step 11, by appending the following terminal command `docker-compose exec workspace ` to all php artisan commands, ex. `docker-compose exec workspace php artisan migrate` to migrate.
 6. for reference and more information please visit https://laradock.io/
 
